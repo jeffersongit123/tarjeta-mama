@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Día de las Madres - Maestra de Primer Año</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <h1>¡Feliz Día de las Madres!</h1>
+            <div class="subtitle">Para mi mamá, la mejor maestra de primer año</div>
+        </div>
+        
+        <div class="message">
+            <p>Querida mamá,</p>
+            <p>Hoy celebro no solo a la increíble madre que eres para mí, sino también a la maravillosa maestra que eres para tantos niños de primer año. Tu paciencia, amor y dedicación inspiran a todos los que te rodean.</p>
+            <p>Gracias por enseñarme mis primeras lecciones y por seguir guiándome en el camino de la vida.</p>
+            <p>Con todo mi amor,</p>
+            <p>Tu hijo</p>
+        </div>
+        
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="memories">Recuerdos</button>
+            <button class="tab-btn" data-tab="board">Pizarra</button>
+            <button class="tab-btn" data-tab="notebook">Libreta Escolar</button>
+        </div>
+        
+        <div class="tab-content active" id="memories">
+            <h3>Nuestros recuerdos especiales</h3>
+            <div class="gallery">
+                <div class="memory">
+                    <div class="memory-inner">
+                        <div class="memory-front">❤️</div>
+                        <div class="memory-back">Te quiero mucho mamá</div>
+                    </div>
+                </div>
+                <div class="memory">
+                    <div class="memory-inner">
+                        <div class="memory-front">📚</div>
+                        <div class="memory-back">Gracias por enseñarme a leer</div>
+                    </div>
+                </div>
+                <div class="memory">
+                    <div class="memory-inner">
+                        <div class="memory-front">🍎</div>
+                        <div class="memory-back">La mejor maestra del mundo</div>
+                    </div>
+                </div>
+                <div class="memory">
+                    <div class="memory-inner">
+                        <div class="memory-front">✏️</div>
+                        <div class="memory-back">Tus lecciones nunca se olvidan</div>
+                    </div>
+                </div>
+                <div class="memory">
+                    <div class="memory-inner">
+                        <div class="memory-front">🎨</div>
+                        <div class="memory-back">Me enseñaste a ser creativo</div>
+                    </div>
+                </div>
+                <div class="memory">
+                    <div class="memory-inner">
+                        <div class="memory-front">🌟</div>
+                        <div class="memory-back">Brillas en todo lo que haces</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tab-content" id="board">
+            <h3>Pizarra de mensajes</h3>
+            <div class="chalkboard">
+                <div class="chalk-messages" id="chalkMessages">
+                    <div class="chalk-message">Te adoro mamá</div>
+                    <div class="chalk-message">Eres mi inspiración</div>
+                </div>
+                <div class="chalk-input">
+                    <input type="text" id="newMessage" placeholder="Escribe un mensaje...">
+                    <button id="addMessage"><i class="fas fa-chalk"></i> Añadir</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tab-content" id="notebook">
+            <h3>Libreta Escolar</h3>
+            <div class="notebook">
+                <div class="page">
+                    <div class="notebook-header">Momentos Especiales</div>
+                    <div class="notebook-line">
+                        <span class="date">5 Mayo:</span> Me enseñaste a leer y escribir
+                    </div>
+                    <div class="notebook-line">
+                        <span class="date">8 Abril:</span> Me ayudaste con mis tareas de la escuela
+                    </div>
+                    <div class="notebook-line">
+                        <span class="date">15 Marzo:</span> Me regalaste mi primera computadora 
+                    </div>
+                    <div class="notebook-line">
+                        <span class="date">22 Feb:</span> Me contaste ese cuento que tanto me gusta
+                    </div>
+                    <div class="notebook-line">
+                        <span class="date">10 Enero:</span> Gracias por todo lo que haces por mi
+                    </div>
+                    <div class="add-memory">
+                        <input type="text" id="newMemory" placeholder="Añade un nuevo recuerdo...">
+                        <button id="addMemory"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Decoraciones flotantes -->
+        <div class="decorations">
+            <div class="decoration heart" style="top: 10%; left: 10%;">❤️</div>
+            <div class="decoration pencil" style="top: 20%; right: 15%;">✏️</div>
+            <div class="decoration book" style="bottom: 15%; left: 15%;">📚</div>
+            <div class="decoration apple" style="bottom: 25%; right: 10%;">🍎</div>
+            <div class="decoration heart" style="top: 40%; left: 85%;">❤️</div>
+            <div class="decoration pencil" style="bottom: 30%; left: 80%;">✏️</div>
+            <div class="decoration star" style="top: 15%; left: 50%;">⭐</div>
+            <div class="decoration crayon" style="bottom: 10%; right: 40%;">🖍️</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
